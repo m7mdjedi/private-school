@@ -1,0 +1,383 @@
+.homeAboutUs {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items:center;   
+  background-color: var(--thirdColor);
+  padding: 5rem 0;
+}
+
+.homeAboutUs .homeAboutUsImgDiv {
+  width: 300px; 
+  height:300px;
+}
+.homeAboutUs .homeAboutUsImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homeAboutUs .homeAboutUsTextDiv {
+  padding-right: 5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+}
+.homeAboutUs .homeAboutUsTextDiv h1 {
+  font-size: min(5vw, 100px);
+}
+.homeAboutUs .homeAboutUsTextDiv .show {
+  font-weight: 700;
+  margin: 0;
+
+  animation: fadeIn 1s ease-in-out;
+}
+
+.homeAboutUs .homeAboutUsTextDiv p {
+  font-size: min(3vw, 25px);
+  font-weight: 400;
+  line-height: 2rem;
+}
+.homeLocation {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--thirdColor);
+  padding: 5rem 0;
+}
+
+.homeLocation .homeLocationTextDiv {
+  color: #000;
+  width: 100%;
+  text-align: center;
+}
+.homeLocation .homeLocationTextDiv h1 {
+  font-size: min(5vw, 100px);
+}
+
+.homeLocation .homeLocationTextDiv .show {
+  font-weight: 700;
+  margin: 0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.homeLocation .homeLocationImgDev {
+  width: 100%;
+  padding-bottom: 100px;
+  over-flow: hidden;
+}
+
+.home_about_school {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+.home_about_school .home_about_school_text {
+  width: 80%;
+  padding: 20px;
+  background: var(--secondColor);
+  color: #000;
+}
+.home_about_school .home_about_school_text h1 {
+  margin: 0;
+  font-size: min(7vw, 100px);
+}
+.home_about_school .home_about_school_text .show {
+  font-weight: 700;
+  margin: 0;
+  animation: fadeIn 1s ease-in-out;
+}
+.home_about_school .home_about_school_text p {
+  font-size: min(3vw, 25px);
+}
+.home_about_school .home_about_school_img {
+  margin-top: -10px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  width:300px;
+  height:300px;
+}
+.home_about_school .home_about_school_img img {
+  width: 100%; 
+  height:100%; 
+} 
+.home_about_registeration{ 
+  width:100%; 
+
+  padding:80px 40px;
+ 
+
+  display:flex; 
+  
+  justify-content:center;
+  flex-wrap:wrap; 
+  background:var(--thirdColor);  
+  color:#000; 
+
+}  
+.home_about_registeration .home_about_registeration_section{ 
+  width:100%;  
+  
+  display:flex; 
+  flex-direction:row-reverse; 
+  flex-wrap:wrap; 
+  justify-content:space-between; 
+}
+.home_about_registeration .home_about_registeration_section div{ 
+  display:flex; 
+  justify-content:center;
+
+}
+.home_about_registeration .home_about_registeration_section div p{ 
+  
+  text-align:center;
+  font-size:min(4vw,50px); 
+  font-weight:700;  
+  padding:40px 20px;
+
+}
+
+.home_about_registeration .home_about_registeration_section div:nth-child(3){ 
+  width:100%; 
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+
+}
+.home_about_registeration .home_about_registeration_section p:hover{ 
+  background:#eee; 
+} 
+.home_gallery { 
+  display:flex;  
+  flex-direction:column; 
+  align-items:center;
+  padding:20px; 
+  background:var(--thirdColor);
+}
+.home_gallery div{ 
+  position:relative; 
+  width:400px; 
+  height:400px;
+  display:flex;
+  justify-content:center; 
+
+}
+.home_gallery>div:nth-child(1){ 
+  background:var(--secondColor); 
+}
+.home_gallery>div:nth-child(2){ 
+  background:#cdd4fb; 
+}
+.home_gallery>div:nth-child(3){ 
+  background:#36348e; 
+}
+.home_gallery div p{ 
+  position: absolute;
+  top:20px; 
+  width:100%;   
+  text-align:center;
+  display:flex; 
+  flex-direction:column; 
+
+} 
+.home_gallery div > p > span{ 
+  width:100%; 
+  text-align:center;  
+  font-size:45px; 
+  font-weight:bold;
+  color:#000; 
+} 
+.home_gallery div > p > span:nth-child(2){ 
+  font-size:min(4vw,20px);
+  font-weight:400;
+}
+.home_gallery > div:nth-child(3) > p > span{ 
+  color: #fff;
+}
+.home_gallery div img{ 
+  position:absolute; 
+  bottom:0; 
+  width:100% ; 
+  height:70%;
+
+
+} 
+.home_registeration{ 
+
+     
+      margin-top:100px; 
+      background:var(--fourthColor);  
+      display:flex; 
+      justify-content:center;
+      align-items:center; 
+      flex-direction:column; 
+} 
+
+.home_registeration > h2{ 
+
+  font-size:min(20vw,100px); 
+  color:#000;  
+}  
+.home_registeration > div{ 
+  margin-top:50px;  
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column; 
+  gap:20px ;
+} 
+.home_registeration a{ 
+  text-decoration:none;
+}
+.home_registeration button{ 
+  padding:3vh 3vw;
+  border:none; 
+  background:var(--mainColor); 
+  color:var(--thirdColor); 
+  display:flex; 
+  align-items:center; 
+  gap:5px; 
+  cursor:pointer;  
+  font-size:min(3vw,25px);
+}
+.home_registeration  p{ 
+  color:#000;
+  font-size:min(4vw,25px); 
+}
+.footer{ 
+  background:var(--mainColor); 
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  align-items:center;
+  padding:50px 50px 20px ;
+  gap:30px
+} 
+.footer_section{ 
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+} 
+.footer_section .footer_left{ 
+  display:none; 
+  justify-content:space-around;
+
+  flex:1;
+}
+.footer_section .footer_left h3{ 
+  font-size:25px; 
+  margin-bottom:40px;
+}
+.footer_section .footer_left ul{ 
+  list-style:none;
+  padding:0;
+
+} 
+.footer_section .footer_left ul li{ 
+  margin-bottom:10px;
+  font-size:18px; 
+  display:flex; 
+  justify-content:right; 
+  cursor:pointer;
+}
+.footer_section .footer_left ul li > a { 
+  color:#bbb; 
+  text-decoration:none; 
+  
+}
+.footer_section .footer_left ul li:hover > a { 
+  color:var(--fourthColor);
+}
+.footer_section .footer_right > div { 
+  display:flex;
+  flex-direction:column;
+  align-items:center; 
+  gap:20px;
+}
+
+.footer_section img{ 
+  width:300px; 
+  height:200px;
+}
+@media (min-width:687px){ 
+  .home_about_registeration .home_about_registeration_section div:nth-child(3){ 
+    width:fit-content;
+  
+  } 
+  .home_about_registeration .move_left{ 
+    margin-left:-50px; 
+    transition:all 1s linear; 
+  }
+  .home_about_registeration .move_right{ 
+    margin-right:-50px; 
+    transition:all 1s linear; 
+  }
+  .home_gallery { 
+    
+    flex-direction:row; 
+  } 
+}
+@media (min-width: 1045px) {
+  .home_about_school {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_about_school .home_about_school_text {
+    width: 60%;
+  }
+  .home_about_school_img {
+    margin-right: -15px;
+    z-index: 10;
+  }
+  .footer_section .footer_left{  
+    display:flex; 
+  }
+}
+@media (max-width: 1045px) {
+  .homeAboutUs {
+    flex-direction: column-reverse;
+  }
+  .homeAboutUs .homeImgDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .homeAboutUs .homeImgDiv img {
+    width: 400px;
+  }
+  .homeAboutUs .homeTextDiv {
+    padding: 0;
+  }
+  .homeAboutUs .homeTextDiv h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .homeAboutUs .homeTextDiv p {
+    font-family: url("../fonts/alfont_com_VEXA-.ttf.ttf");
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
